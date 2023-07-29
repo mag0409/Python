@@ -33,6 +33,7 @@ def take_turn(current_position, player_name):
     if new_position >= 100:
         new_position = 100
         print(f"Congratulations, {player_name} reached the final square!")
+        print("adding my 2 cents here")
 
     return new_position
 
